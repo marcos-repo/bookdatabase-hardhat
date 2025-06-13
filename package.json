@@ -1,0 +1,22 @@
+{
+  "name": "bookdatabase-hardhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx hardhat node",
+    "test": "npx hardhat test",
+    "deploy:dev": "npx hardhat ignition deploy ignition/modules/BookDatabase.ts --network local",
+    "deploy:sepolia": "npx hardhat ignition deploy ignition/modules/BookDatabase.ts --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.24.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
